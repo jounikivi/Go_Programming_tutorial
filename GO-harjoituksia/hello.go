@@ -41,6 +41,19 @@ func main() {
 
 	// constanst
 
+	const peli string = "super mario"
+	fmt.Println(peli)
+
+	// multi const
+
+	const (
+		peli1 = "super mario"
+		peli2 = "zelda"
+		num   = "100"
+	)
+
+	fmt.Println(peli2)
+
 	//fmt.Println(firstName)
 
 }
