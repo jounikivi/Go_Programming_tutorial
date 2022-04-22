@@ -27,6 +27,20 @@ func main() {
 
 	fmt.Println(fullName, age, price, tf)
 
+	fullName = "Jouni Kiviperä"
+	age = 41
+	price = 20.00
+	tf = true
+
+	fmt.Println(fullName, age, price, tf)
+
+	// multiple variable declaration
+
+	var name1, name2 string = "Pekka", "Reima"
+	fmt.Println(name1, name2)
+
+	// constanst
+
 	//fmt.Println(firstName)
 
 }
