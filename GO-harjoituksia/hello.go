@@ -26,4 +26,11 @@ func main() {
 
 	fmt.Println(fullName, age, price, tf)
 
+	fullName = "Jouni Kiviperä"
+	age = 41
+	price = 19.99
+	tf = true
+
+	fmt.Println(fullName, age, price, tf)
+
 }
